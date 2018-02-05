@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Precious</title>
+</head>
+<body>
+	<h1>Simple Sign-up Page</h1>
+<div>
+	Username:
+	<input id="name_name" type="text" name="name" size="20" onblur="isTheFieldEmpty(this, document.getElementById('name'))" />
+	<span id="name"></span>
+</div>
+
+ <br />
+<div>
+	Password:
+	<input id="name_password" type="password"  size="20" onblur="isThepassword(this, document.getElementById('password'))" />
+	<span id="password"></span>
+</div>
+<br>
+<div>
+	Password Confrimation:
+	<input id="name_confirm" type="password"  size="20" onblur="isTheconfirmpassword(this, document.getElementById('confirm'))" />
+	<span id="confirm"></span>
+</div>
+<br>
+<div>
+	E-mail:
+	<input id="name_email" type="text" size="20" onblur="isTheemail(this, document.getElementById('email'))" />
+	<span id="email"></span>
+</div>
+<script src="assignment7.js"></script>
+</body>
+</html>
